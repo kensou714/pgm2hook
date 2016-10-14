@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "game_type.h"
+#include "rom_func.h"
 
 
 extern void pgm2log(const char *fmt, ...);
@@ -10,14 +11,9 @@ extern void pgm2log(const char *fmt, ...);
 #define CreatOBJ_10081FF0				FUNC16(0x10081FF0)
 #define CreatOBJ_10081440				FUNC16(0x10081440)
 #define CreatOBJ_100813E0				FUNC16(0x100813E0)
-#define sub_100190E8					FUNC16(0x100190E8)
-#define sub_1009AEEC					FUNC16(0x1009AEEC)
-#define sub_10004116					FUNC16(0x10004116)
+
 #define GetRegion_10094EFC				FUNC16(0x10094EFC)
 #define PalFade_10004E76				FUNC16(0x10004E76)
-#define sub_100043E6					FUNC16(0x100043E6)
-#define sub_10004588					FUNC16(0x10004588)
-#define sub_1001227E					FUNC16(0x1001227E)
 #define ScreenUpdate_1002F81A			FUNC16(0x1002F81A)
 #define GameMode_20020105				V8(0x20020105)
 
