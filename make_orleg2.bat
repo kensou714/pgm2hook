@@ -1,6 +1,4 @@
-Set DELCMD=/Y
-del obj\*.* /p
-del obj /p
+del obj\*.* /q
 make
 pause
 copy xyj2_v104cn.u7 e:\s2\roms\orleg2
